@@ -9,24 +9,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="beispiele">
 
 <main class="content">
   <p><a href="index.html">&larr; Zurück zur Startseite</a></p>
   <h1 style="margin-top:24px;">Programmier-Beispiele</h1>
-
-  <div class="cards" style="grid-template-columns: 1fr; margin-top:20px;">
-    <article class="card">
-      <h2>Projekt 1</h2>
-      <p>Kurze Beschreibung des Projekts. <a href="#">Code auf GitHub ansehen</a></p>
-    </article>
-    <article class="card">
-      <h2>Projekt 2</h2>
-      <p>Kurze Beschreibung des Projekts. <a href="#">Code auf GitHub ansehen</a></p>
-    </article>
-  </div>
+  <div class="cards" style="grid-template-columns: 1fr; margin-top:20px;" data-field="list"></div>
 </main>
 
 <footer class="footer"><p>&copy; 2026 Nino Borer</p></footer>
+<script src="js/render.js"></script>
 </body>
 </html>

@@ -1,0 +1,60 @@
+{
+  "home": {
+    "photo": "assets/foto-nino.jpg",
+    "name": "Nino Borer",
+    "tagline": "Lehrstellensuche 2027",
+    "cards": [
+      {
+        "icon": "👤",
+        "title": "Wer bin ich",
+        "html": "<p>Hallo, ich bin Nino, 15 Jahre alt und besuche die 3. Sekundarstufe. Ich bin motiviert, packe gerne praktisch an und lerne neue Dinge schnell.</p>"
+      },
+      {
+        "icon": "❤",
+        "title": "Interessen",
+        "html": "<p>Technik, Informatik und wie Dinge funktionieren. Ich probiere gerne Neues aus – am Computer und in der Werkstatt.</p>"
+      },
+      {
+        "icon": "🎯",
+        "title": "Was suche ich",
+        "html": "<p>Eine Lehrstelle als Informatiker EFZ (oder verwandter Beruf) ab Sommer 2027. Ich freue mich auf eine Schnupperlehre!</p>"
+      },
+      {
+        "icon": "⚽",
+        "title": "Hobbies",
+        "html": "<p>Fussball, Programmieren in meiner Freizeit, und Zeit mit Freunden verbringen.</p>"
+      }
+    ]
+  },
+  "kontakt": {
+    "html": "<p><strong>Nino Borer</strong></p><p>E-Mail: <a href=\"mailto:nino.borer@example.com\">nino.borer@example.com</a></p><p>Telefon: 079 000 00 00</p><p>Ort: Musterort</p>",
+    "cvHtml": "<p>Der Lebenslauf steht auf Anfrage als PDF zur Verfügung.</p>",
+    "cvLink": "assets/lebenslauf-nino-borer.pdf"
+  },
+  "referenzen": {
+    "items": [
+      {
+        "title": "Schnupperlehre – Musterfirma AG",
+        "html": "<p>März 2026, 3 Tage. Einblick in den Arbeitsalltag als Informatiker EFZ.</p>"
+      },
+      {
+        "title": "Lehrperson – Sekundarschule Musterort",
+        "html": "<p>Auf Anfrage, Referenzschreiben verfügbar.</p>"
+      }
+    ]
+  },
+  "beispiele": {
+    "items": [
+      {
+        "title": "Projekt 1",
+        "html": "<p>Kurze Beschreibung des Projekts.</p>",
+        "link": "#"
+      },
+      {
+        "title": "Projekt 2",
+        "html": "<p>Kurze Beschreibung des Projekts.</p>",
+        "link": "#"
+      }
+    ]
+  }
+}

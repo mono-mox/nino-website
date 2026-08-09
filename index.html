@@ -10,43 +10,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="home">
 
 <header class="banner">
-  <img src="assets/foto-nino.jpg" alt="Foto von Nino Borer" class="banner-photo">
+  <img src="assets/foto-nino.jpg" alt="Foto von Nino Borer" class="banner-photo" data-field="photo">
   <div class="banner-overlay">
-    <h1 class="banner-name">Nino Borer</h1>
-    <p class="banner-tag">Lehrstellensuche 2027</p>
+    <h1 class="banner-name" data-field="name">Nino Borer</h1>
+    <p class="banner-tag" data-field="tagline">Lehrstellensuche 2027</p>
   </div>
 </header>
 
 <main class="content">
 
-  <section class="cards" aria-label="Kurzprofil">
-    <article class="card">
-      <span class="card-icon" aria-hidden="true">&#128100;</span>
-      <h2>Wer bin ich</h2>
-      <p>Hallo, ich bin Nino, 15 Jahre alt und besuche die 3. Sekundarstufe. Ich bin motiviert, packe gerne praktisch an und lerne neue Dinge schnell.</p>
-    </article>
-
-    <article class="card">
-      <span class="card-icon" aria-hidden="true">&#10084;</span>
-      <h2>Interessen</h2>
-      <p>Technik, Informatik und wie Dinge funktionieren. Ich probiere gerne Neues aus – am Computer und in der Werkstatt.</p>
-    </article>
-
-    <article class="card">
-      <span class="card-icon" aria-hidden="true">&#127919;</span>
-      <h2>Was suche ich</h2>
-      <p>Eine Lehrstelle als Informatiker EFZ (oder verwandter Beruf) ab Sommer 2027. Ich freue mich auf eine Schnupperlehre!</p>
-    </article>
-
-    <article class="card">
-      <span class="card-icon" aria-hidden="true">&#9917;</span>
-      <h2>Hobbies</h2>
-      <p>Fussball, Programmieren in meiner Freizeit, und Zeit mit Freunden verbringen.</p>
-    </article>
-  </section>
+  <section class="cards" aria-label="Kurzprofil" data-field="cards"></section>
 
   <nav class="links" aria-label="Weitere Bereiche">
     <a href="beispiele.html">Programmier-Beispiele</a>
@@ -60,5 +36,6 @@
   <p>&copy; 2026 Nino Borer</p>
 </footer>
 
+<script src="js/render.js"></script>
 </body>
 </html>

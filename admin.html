@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inhalte bearbeiten – Nino Borer</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/quill/1.3.7/quill.snow.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+  body { background: var(--bg); }
+  .admin-wrap { max-width: 720px; margin: 0 auto; padding: 32px 20px 80px; }
+  .field { margin-bottom: 28px; }
+  .field label { display:block; font-size:13px; font-weight:500; color: var(--ink-muted); margin-bottom:6px; }
+  .field input[type=text] { width:100%; padding:10px 12px; border:1px solid var(--border); border-radius:8px; font-size:14px; font-family:'Inter',sans-serif; }
+  .editor { background:#fff; border:1px solid var(--border); border-radius:8px; }
+  .section-title { font-family:'Space Grotesk',sans-serif; font-size:18px; font-weight:600; margin: 40px 0 16px; border-top:1px solid var(--border); padding-top:24px; }
+  .card-block { background:#fff; border:1px solid var(--border); border-radius:12px; padding:18px; margin-bottom:16px; }
+  .img-preview { width:120px; height:80px; object-fit:cover; border-radius:8px; border:1px solid var(--border); display:block; margin:8px 0; }
+  .btn { background: var(--accent); color:#fff; border:none; padding:10px 18px; border-radius:8px; font-size:14px; font-weight:500; cursor:pointer; }
+  .btn.secondary { background:#fff; color:var(--ink); border:1px solid var(--border); }
+  .top-bar { position: sticky; top:0; background: var(--bg); padding: 16px 20px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; z-index:10; }
+  #status { font-size:13px; color: var(--ink-muted); }
+  .token-box { background:#fff; border:1px solid var(--border); border-radius:12px; padding:20px; margin-bottom:24px; }
+  .token-box input { width:100%; padding:10px 12px; border:1px solid var(--border); border-radius:8px; font-size:14px; margin-bottom:10px; }
+  details summary { cursor:pointer; font-size:13px; color: var(--accent); }
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+  <strong>Inhalte bearbeiten</strong>
+  <div style="display:flex; gap:10px; align-items:center;">
+    <span id="status"></span>
+    <button class="btn" id="saveBtn">Speichern</button>
+  </div>
+</div>
+
+<div class="admin-wrap">
+
+  <div class="token-box" id="tokenBox">
+    <p style="margin:0 0 10px; font-size:14px;">Einmalig: GitHub-Zugriffstoken eintragen (bleibt nur in diesem Browser gespeichert).</p>
+    <input type="text" id="ghOwner" placeholder="GitHub-Benutzername, z.B. mono-mox">
+    <input type="text" id="ghRepo" placeholder="Repo-Name, z.B. nino-website">
+    <input type="password" id="ghToken" placeholder="GitHub-Token (ghp_...)">
+    <button class="btn secondary" id="saveTokenBtn">Zugangsdaten merken</button>
+    <details style="margin-top:12px;">
+      <summary>Wie erstelle ich ein Token?</summary>
+      <p style="font-size:13px; color:var(--ink-muted); margin-top:8px;">
+        1. Auf github.com: oben rechts Profilbild &rarr; Settings &rarr; Developer settings &rarr; Personal access tokens &rarr; Fine-grained tokens &rarr; Generate new token.<br>
+        2. Repository access: nur dieses eine Repo auswählen.<br>
+        3. Permissions &rarr; Contents: Read and write.<br>
+        4. Token erstellen, kopieren und hier oben einfügen.
+      </p>
+    </details>
+  </div>
+
+  <div id="formArea">Lade Inhalte…</div>
+
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/quill/1.3.7/quill.min.js"></script>
+<script src="js/admin.js"></script>
+</body>
+</html>

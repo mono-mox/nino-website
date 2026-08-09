@@ -9,25 +9,19 @@
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-page="kontakt">
 
 <main class="content">
   <p><a href="index.html">&larr; Zurück zur Startseite</a></p>
   <h1 style="margin-top:24px;">Kontakt</h1>
-  <div class="card" style="margin-top:20px; max-width:420px;">
-    <p><strong>Nino Borer</strong></p>
-    <p>E-Mail: <a href="mailto:nino.borer@example.com">nino.borer@example.com</a></p>
-    <p>Telefon: 079 000 00 00</p>
-    <p>Ort: Musterort</p>
-  </div>
+  <div class="card" style="margin-top:20px; max-width:420px;" data-field="kontakt-html"></div>
 
   <h2 style="margin-top:32px; font-size:17px;">Lebenslauf</h2>
-  <p style="font-size:14px; color:var(--ink-muted);">
-    Der Lebenslauf steht auf Anfrage als PDF zur Verfügung.
-  </p>
-  <p><a href="assets/lebenslauf-nino-borer.pdf">Lebenslauf als PDF herunterladen</a></p>
+  <div data-field="cv-html" style="font-size:14px; color:var(--ink-muted);"></div>
+  <p><a href="#" data-field="cv-link">Lebenslauf als PDF herunterladen</a></p>
 </main>
 
 <footer class="footer"><p>&copy; 2026 Nino Borer</p></footer>
+<script src="js/render.js"></script>
 </body>
 </html>
