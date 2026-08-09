@@ -1,0 +1,154 @@
+:root {
+  --bg: #F5F6F4;
+  --surface: #FFFFFF;
+  --ink: #1F2823;
+  --ink-muted: #5B655F;
+  --accent: #0F6E56;
+  --accent-bg: #E1F5EE;
+  --border: #DDE2DC;
+  --radius: 14px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  margin: 0;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+  position: relative;
+  width: 100%;
+  height: 260px;
+  overflow: hidden;
+  background: var(--accent-bg);
+}
+
+.banner-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.banner-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(0,0,0,0.15), rgba(0,0,0,0.35));
+  text-align: center;
+}
+
+.banner-name {
+  font-size: 32px;
+  font-weight: 600;
+  color: #FFFFFF;
+}
+
+.banner-tag {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #FFFFFF;
+  border-top: 2px solid var(--accent);
+  padding-top: 8px;
+}
+
+/* Content */
+.content {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 24px 20px;
+}
+
+.card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--accent-bg);
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+
+.card h2 {
+  font-size: 17px;
+  margin-bottom: 8px;
+}
+
+.card p {
+  font-size: 14px;
+  color: var(--ink-muted);
+  margin: 0;
+}
+
+.links {
+  display: flex;
+  gap: 28px;
+  margin-top: 36px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-size: 15px;
+}
+
+.footer {
+  text-align: center;
+  padding: 24px;
+  font-size: 13px;
+  color: var(--ink-muted);
+}
+
+/* Tablet */
+@media (max-width: 900px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile */
+@media (max-width: 560px) {
+  .banner { height: 200px; }
+  .banner-name { font-size: 24px; }
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  .card { padding: 18px 16px; }
+  .links {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .content { padding: 28px 18px; }
+}
