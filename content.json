@@ -7,7 +7,7 @@
       {
         "icon": "👤",
         "title": "Wer bin ich",
-        "html": "<p>Hallo, ich bin Nino, 15 Jahre alt und besuche die 3. Sekundarstufe. Ich bin motiviert, packe gerne praktisch an und lerne neue Dinge schnell.</p>"
+        "html": "<p>Hallo, ich bin Nino, 14 Jahre alt und besuche die 3. Sekundarstufe. Ich bin motiviert, packe gerne praktisch an und lerne neue Dinge schnell.</p>"
       },
       {
         "icon": "❤",
@@ -17,29 +17,25 @@
       {
         "icon": "🎯",
         "title": "Was suche ich",
-        "html": "<p>Eine Lehrstelle als Informatiker EFZ (oder verwandter Beruf) ab Sommer 2027. Ich freue mich auf eine Schnupperlehre!</p>"
+        "html": "<p>Eine Lehrstelle als Informatiker EFZ ab Sommer 2027.</p>"
       },
       {
         "icon": "⚽",
         "title": "Hobbies",
-        "html": "<p>Fussball, Programmieren in meiner Freizeit, und Zeit mit Freunden verbringen.</p>"
+        "html": "<p>.....</p>"
       }
     ]
   },
   "kontakt": {
-    "html": "<p><strong>Nino Borer</strong></p><p>E-Mail: <a href=\"mailto:nino.borer@example.com\">nino.borer@example.com</a></p><p>Telefon: 079 000 00 00</p><p>Ort: Musterort</p>",
-    "cvHtml": "<p>Der Lebenslauf steht auf Anfrage als PDF zur Verfügung.</p>",
+    "html": "<p><strong>Siehe in meinen Unterlagen</strong></p>",
+    "cvHtml": "<p><strong>Siehe in meinen Unterlagen</strong></p>",
     "cvLink": "assets/lebenslauf-nino-borer.pdf"
   },
   "referenzen": {
     "items": [
       {
-        "title": "Schnupperlehre – Musterfirma AG",
-        "html": "<p>März 2026, 3 Tage. Einblick in den Arbeitsalltag als Informatiker EFZ.</p>"
-      },
-      {
-        "title": "Lehrperson – Sekundarschule Musterort",
-        "html": "<p>Auf Anfrage, Referenzschreiben verfügbar.</p>"
+        "title": "Siehe in meinen Unterlagen",
+        "html": "<p><br></p>"
       }
     ]
   },
@@ -47,7 +43,7 @@
     "items": [
       {
         "title": "Strategiespiel: Mauern bauen, Türme verteidigen",
-        "html": "<p><strong>Über dieses Spiel</strong></p><p>Diese Browser-Version ist eine vollständige Portierung eines ursprünglich in Python (pygame) geschriebenen Strategiespiels mit rund 2'800 Zeilen Code. Sie enthält eine A*-Pfadfindung für Gegner, die um Mauern herum navigieren, 16 verschiedene Waffen mit individueller Balance, 10 Gegnertypen samt Boss-Mechanik sowie eine vollständig synthetisch erzeugte Musik- und Soundkulisse (Web Audio API, ganz ohne Audiodateien).</p><p><br></p><p><strong>Ablauf</strong></p><p>Vor jeder Welle hast du 5 Sekunden, um Heil- und Schiesstürme strategisch zu platzieren. Danach greifen Gegnerwellen an – du bewegst dich mit WASD, zielst mit der Maus und hältst die Stellung. Nach jeder überstandenen Welle öffnet sich ein Shop: Dort investierst du gesammelte Münzen in Waffen-Upgrades, neue Waffen, mehr Leben, Türme oder andere Verbesserungen. Die Schwierigkeit steigt langsam exponentiell – neue Gegnertypen schalten sich alle paar Wellen frei, sodass der Einstieg leicht bleibt, das späte Spiel aber fordernd wird.</p>",
+        "html": "<p><strong>Über dieses Spiel</strong></p><p>Diese Browser-Version ist eine vollständige Portierung eines ursprünglich in Python (pygame) geschriebenen Strategiespiels mit rund 2'800 Zeilen Code. Sie enthält eine A*-Pfadfindung für Gegner, die um Mauern herum navigieren, 16 verschiedene Waffen mit individueller Balance, 10 Gegnertypen samt Boss-Mechanik sowie eine vollständig synthetisch erzeugte Musik- und Soundkulisse (Web Audio API, ganz ohne Audiodateien).</p><p><br></p><p><strong>Ablauf</strong></p><p>Vor jeder Welle hast du 5 Sekunden, um Heil- und Schiesstürme strategisch zu platzieren. Danach greifen Gegnerwellen an – du bewegst dich mit WASD, zielst mit der Maus und hältst die Stellung. Nach jeder überstandenen Welle öffnet sich ein Shop: Dort investierst du gesammelte Münzen in Waffen-Upgrades, neue Waffen, mehr Leben, Türme oder andere Verbesserungen. Die Schwierigkeit steigt langsam exponentiell – neue Gegnertypen schalten sich alle paar Wellen frei, sodass der Einstieg leicht bleibt, das späte Spiel aber fordernd wird.</p><p><br></p><p><strong>Viel Spass</strong></p>",
         "link": "https://ninoborer.ch/assets/Happy_Birthday_Papi_Browser.html"
       }
     ]
