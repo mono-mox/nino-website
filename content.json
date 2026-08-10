@@ -7,7 +7,7 @@
       {
         "icon": "👤",
         "title": "Wer bin ich",
-        "html": "<p>Hallo, ich bin Nino, 14 Jahre alt und besuche die 3. Sekundarstufe. Ich bin motiviert, packe gerne praktisch an und lerne neue Dinge schnell.</p>"
+        "html": "<p>Hallo, ich bin Nino, 14 Jahre alt und besuche die 3. Sekundarstufe in Brüttisellen. Ich bin motiviert und lerne gerne und schnell Neues.</p>"
       },
       {
         "icon": "❤",
@@ -22,7 +22,7 @@
       {
         "icon": "⚽",
         "title": "Hobbies",
-        "html": "<p>.....</p>"
+        "html": "<p>Scheissen 300m im Schiessverein Wangen-Brüttisellen; Rang 23. am Eidgenössisches Schützenfest 2026 </p><p><br></p><p>Drohnen fliegen (DJI Neo), Programmieren mit Python.</p><p><br></p><p>Gaming (PC) z.B. Mineccraft mit eigenem Server Hosting</p>"
       }
     ]
   },
@@ -35,7 +35,7 @@
     "items": [
       {
         "title": "Siehe in meinen Unterlagen",
-        "html": "<p><br></p>"
+        "html": "<p><strong><span class=\"ql-cursor\">﻿</span></strong></p>"
       }
     ]
   },
@@ -43,7 +43,7 @@
     "items": [
       {
         "title": "Strategiespiel: Mauern bauen, Türme verteidigen",
-        "html": "<p><strong>Über dieses Spiel</strong></p><p><strong>Dieses Spiel habe ich zum Geburtstag von meinem Vater programmiert.</strong></p><p>Die hier verfügbare Browser-Version ist eine vollständige Portierung eines ursprünglich in Python (pygame) geschriebenen Strategiespiels mit rund 2'800 Zeilen Code. Sie enthält eine A*-Pfadfindung für Gegner, die um Mauern herum navigieren, 16 verschiedene Waffen mit individueller Balance, 10 Gegnertypen samt Boss-Mechanik sowie eine vollständig synthetisch erzeugte Musik- und Soundkulisse (Web Audio API, ganz ohne Audiodateien).</p><p><br></p><p><strong>Ablauf</strong></p><p>Vor jeder Welle hast du 5 Sekunden, um Heil- und Schiesstürme strategisch zu platzieren. Danach greifen Gegnerwellen an – du bewegst dich mit WASD, zielst mit der Maus und hältst die Stellung. Nach jeder überstandenen Welle öffnet sich ein Shop: Dort investierst du gesammelte Münzen in Waffen-Upgrades, neue Waffen, mehr Leben, Türme oder andere Verbesserungen. Die Schwierigkeit steigt langsam exponentiell – neue Gegnertypen schalten sich alle paar Wellen frei, sodass der Einstieg leicht bleibt, das späte Spiel aber fordernd wird.</p><p><br></p><p><strong>Viel Spass</strong></p>",
+        "html": "<p><strong>Über dieses Spiel</strong></p><p>Dieses Spiel habe ich zum Geburtstag von meinem Vater programmiert.</p><p>Die hier verfügbare Browser-Version ist eine vollständige Portierung eines ursprünglich in Python (pygame) geschriebenen Strategiespiels mit rund 2'800 Zeilen Code. Sie enthält eine Pfadfindung für Gegner, die um Mauern herum navigieren, 16 verschiedene Waffen mit individueller Balance, 10 Gegnertypen samt Boss-Mechanik sowie eine vollständig synthetisch erzeugte Musik- und Soundkulisse (Web Audio API, ganz ohne Audiodateien).</p><p><br></p><p><strong>Ablauf</strong></p><p>Vor jeder Welle haben Sie 5 Sekunden, um Heil- und Schiesstürme strategisch zu platzieren. Danach greifen Gegnerwellen an – Sie bewegen sich mit WASD und zielen mit der Maus. Nach jeder überstandenen Welle öffnet sich ein Shop: Dort investieren Sie die gesammelten Münzen in Waffen-Upgrades, neue Waffen, mehr Leben, Türme oder andere Verbesserungen. Die Schwierigkeit steigt langsam – neue Gegnertypen schalten sich alle paar Wellen frei, sodass der Einstieg leicht bleibt, das späte Spiel aber fordernd wird.</p><p><br></p><p>Mit dem Link unten geht es zu Spiel</p>",
         "link": "https://ninoborer.ch/assets/Happy_Birthday_Papi_Browser.html"
       }
     ]
