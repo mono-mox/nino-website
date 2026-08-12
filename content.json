@@ -6,23 +6,23 @@
     "cards": [
       {
         "icon": "👤",
-        "title": "Wer bin ich",
+        "title": "Das bin ich",
         "html": "<p>Hallo, ich bin Nino, 14 Jahre alt und besuche die 3. Sekundarstufe in Brüttisellen. Ich bin motiviert und lerne gerne und schnell Neues.</p>"
       },
       {
         "icon": "❤",
-        "title": "Interessen",
+        "title": "Meine Interessen",
         "html": "<p>Technik, Informatik und wie Dinge funktionieren. Ich probiere gerne Neues aus – am Computer und in der Werkstatt.</p>"
       },
       {
         "icon": "🎯",
-        "title": "Was suche ich",
+        "title": "Was ich suche",
         "html": "<p>Eine Lehrstelle als Informatiker Plattformentwicklung EFZ ab Sommer 2027.</p>"
       },
       {
         "icon": "⚽",
-        "title": "Hobbies",
-        "html": "<p>Schiessen 300m im Schiessverein Wangen-Brüttisellen; Rang 23. am Eidgenössisches Schützenfest 2026 </p><p><br></p><p>Drohnen fliegen (DJI Neo), Programmieren mit Python.</p><p><br></p><p>Gaming (PC) z.B. Mineccraft mit eigenem Server Hosting</p>"
+        "title": "Meine Hobbies",
+        "html": "<p>Schiessen 300m im Schiessverein Wangen-Brüttisellen; Rang 23 am Eidgenössisches Schützenfest 2026. </p><p><br></p><p>Drohnen fliegen (DJI Neo), Programmieren mit Python.</p><p><br></p><p>Gaming (PC) z.B. Mineccraft mit eigenem Server Hosting.</p>"
       }
     ]
   },
@@ -35,7 +35,7 @@
     "items": [
       {
         "title": "Siehe in meinen Unterlagen",
-        "html": "<p><strong><span class=\"ql-cursor\">﻿﻿﻿﻿</span></strong></p>"
+        "html": "<p><strong><span class=\"ql-cursor\">﻿﻿﻿﻿﻿</span></strong></p>"
       }
     ]
   },
