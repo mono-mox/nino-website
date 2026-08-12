@@ -29,13 +29,13 @@
   "kontakt": {
     "html": "<p><strong>Siehe in meinen Unterlagen</strong></p>",
     "cvHtml": "<p><strong>Siehe in meinen Unterlagen</strong></p>",
-    "cvLink": "assets/lebenslauf-nino-borer.pdf"
+    "cvLink": ""
   },
   "referenzen": {
     "items": [
       {
         "title": "Siehe in meinen Unterlagen",
-        "html": "<p><strong><span class=\"ql-cursor\">﻿﻿﻿</span></strong></p>"
+        "html": "<p><strong><span class=\"ql-cursor\">﻿﻿﻿﻿</span></strong></p>"
       }
     ]
   },
