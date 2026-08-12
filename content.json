@@ -17,7 +17,7 @@
       {
         "icon": "🎯",
         "title": "Was suche ich",
-        "html": "<p>Eine Lehrstelle als Informatiker EFZ ab Sommer 2027.</p>"
+        "html": "<p>Eine Lehrstelle als Informatiker Plattformentwicklung EFZ ab Sommer 2027.</p>"
       },
       {
         "icon": "⚽",
@@ -35,7 +35,7 @@
     "items": [
       {
         "title": "Siehe in meinen Unterlagen",
-        "html": "<p><strong><span class=\"ql-cursor\">﻿﻿</span></strong></p>"
+        "html": "<p><strong><span class=\"ql-cursor\">﻿﻿﻿</span></strong></p>"
       }
     ]
   },
