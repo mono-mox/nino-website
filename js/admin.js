@@ -119,7 +119,8 @@ function renderForm(content) {
   html += fieldBlock('Lebenslauf-Datei', `
     <input type="file" id="f-cv-upload" accept="application/pdf">
     <input type="hidden" id="f-cv-path" value="${escapeAttr(content.kontakt.cvLink)}">
-    <p style="font-size:12px; color:var(--ink-muted); margin:6px 0 0;">Aktuell: ${escapeAttr(content.kontakt.cvLink)}</p>
+    <p style="font-size:12px; color:var(--ink-muted); margin:6px 0 0;" id="cv-current-label">${content.kontakt.cvLink ? 'Aktuell: ' + escapeAttr(content.kontakt.cvLink) : 'Aktuell: kein Lebenslauf hinterlegt'}</p>
+    <button class="btn secondary" id="deleteCvBtn" type="button" style="margin-top:8px;" ${content.kontakt.cvLink ? '' : 'disabled'}>Lebenslauf entfernen</button>
   `);
 
   // REFERENZEN
@@ -145,6 +146,20 @@ function renderForm(content) {
   document.getElementById('addBspBtn').addEventListener('click', () => addRepeatableItem('bsp-list', 'bsp', true));
 
   document.getElementById('f-photo-upload').addEventListener('change', e => previewImage(e, 'photo-preview'));
+
+  document.getElementById('deleteCvBtn').addEventListener('click', () => {
+    document.getElementById('f-cv-path').value = '';
+    document.getElementById('f-cv-upload').value = '';
+    document.getElementById('cv-current-label').textContent = 'Kein Lebenslauf (wird beim Speichern entfernt)';
+    document.getElementById('deleteCvBtn').disabled = true;
+  });
+
+  document.getElementById('f-cv-upload').addEventListener('change', e => {
+    if (e.target.files[0]) {
+      document.getElementById('cv-current-label').textContent = 'Neue Datei ausgewählt: ' + e.target.files[0].name;
+      document.getElementById('deleteCvBtn').disabled = false;
+    }
+  });
 }
 
 function escapeAttr(str) {

@@ -27,9 +27,14 @@ function renderHome(content) {
 function renderKontakt(content) {
   const c = content.kontakt;
   document.querySelector('[data-field="kontakt-html"]').innerHTML = c.html;
-  document.querySelector('[data-field="cv-html"]').innerHTML = c.cvHtml;
-  const link = document.querySelector('[data-field="cv-link"]');
-  link.href = c.cvLink;
+  const cvSection = document.querySelector('[data-field="cv-section"]');
+  if (c.cvLink) {
+    document.querySelector('[data-field="cv-html"]').innerHTML = c.cvHtml;
+    document.querySelector('[data-field="cv-link"]').href = c.cvLink;
+    if (cvSection) cvSection.style.display = '';
+  } else {
+    if (cvSection) cvSection.style.display = 'none';
+  }
 }
 
 function renderList(content, key) {
