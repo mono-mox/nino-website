@@ -12,17 +12,17 @@
       {
         "icon": "❤",
         "title": "Meine Interessen",
-        "html": "<p>Technik, Informatik und wie Dinge funktionieren. Ich probiere gerne Neues aus – am Computer und in der Werkstatt.</p>"
+        "html": "<p>Ich interessiere mich für Technik, Informatik und Programmieren.</p><p>Ausserdem finde ich es spannend zu verstehen, wie Dinge funktionieren. Ich probiere gerne Neues aus, arbeite am Computer und bastle hin und wieder in der Werkstatt.</p>"
       },
       {
         "icon": "🎯",
         "title": "Was ich suche",
-        "html": "<p>Eine Lehrstelle als Informatiker Plattformentwicklung EFZ ab Sommer 2027.</p>"
+        "html": "<p>Eine Lehrstelle als Informatiker Plattformentwicklung EFZ ab Sommer 2027.</p><p><br></p><p>Die Informatik begeistert mich schon seit längerem. Durch verschiedene Kurse und eigene Projekte konnte ich mein Interesse vertiefen und bestätigen, dass die Plattformentwicklung mein Wunschberuf ist.</p>"
       },
       {
         "icon": "⚽",
         "title": "Meine Hobbies",
-        "html": "<p>Schiessen 300m im Schiessverein Wangen-Brüttisellen; Rang 23 am Eidgenössisches Schützenfest 2026. </p><p><br></p><p>Drohnen fliegen (DJI Neo), Programmieren mit Python.</p><p><br></p><p>Gaming (PC) z.B. Mineccraft mit eigenem Server Hosting.</p>"
+        "html": "<p>Schiessen (300 m) im Schiessverein Wangen-Brüttisellen; Rang 23 am Eidgenössischen Schützenfest 2026.</p><p><br></p><p>Drohnenfliegen und Ausprobieren neuer Technik.</p><p><br></p><p>Programmieren mit Python.</p><p><br></p><p>Gaming am PC, z.B. Minecraft mit eigenem Server-Hosting.</p><p><br></p><p>Erkunden virtueller Welten mit meiner Meta Quest VR-Brille.</p><p><br></p>"
       }
     ]
   },
