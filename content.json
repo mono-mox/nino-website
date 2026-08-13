@@ -7,7 +7,7 @@
       {
         "icon": "👤",
         "title": "Das bin ich",
-        "html": "<p>Hallo, ich bin Nino, 14 Jahre alt und besuche die 3. Sekundarstufe in Brüttisellen. Ich bin motiviert und lerne gerne und schnell Neues.</p>"
+        "html": "<p>Hallo, ich bin Nino, 14 Jahre alt, und besuche die 3. Sekundarstufe in Brüttisellen.</p><p><br></p><p>Ich bin geduldig, ausdauernd, löse gerne Herausforderungen und bin motiviert, schnell Neues zu lernen.</p>"
       },
       {
         "icon": "❤",
@@ -35,16 +35,21 @@
     "items": [
       {
         "title": "Siehe in meinen Unterlagen",
-        "html": "<p><strong><span class=\"ql-cursor\">﻿﻿﻿﻿﻿</span></strong></p>"
+        "html": "<p><strong><span class=\"ql-cursor\">﻿﻿﻿﻿﻿﻿</span></strong></p>"
       }
     ]
   },
   "beispiele": {
     "items": [
       {
-        "title": "Strategiespiel: Mauern bauen, Türme verteidigen",
+        "title": "Arena-Shooter Roguelite mit zufälligen Upgrades",
         "html": "<p><strong>Über dieses Spiel</strong></p><p>Dieses Spiel habe ich zum Geburtstag von meinem Vater programmiert.</p><p>Die hier verfügbare Browser-Version ist eine vollständige Portierung eines ursprünglich in Python (pygame) geschriebenen Strategiespiels mit rund 2'800 Zeilen Code. Sie enthält eine Pfadfindung für Gegner, die um Mauern herum navigieren, 16 verschiedene Waffen mit individueller Balance, 10 Gegnertypen samt Boss-Mechanik sowie eine vollständig synthetisch erzeugte Musik- und Soundkulisse (Web Audio API, ganz ohne Audiodateien).</p><p><br></p><p><strong>Ablauf</strong></p><p>Vor jeder Welle haben Sie 5 Sekunden, um Heil- und Schiesstürme strategisch zu platzieren. Danach greifen Gegnerwellen an – Sie bewegen sich mit WASD und zielen mit der Maus. Nach jeder überstandenen Welle öffnet sich ein Shop: Dort investieren Sie die gesammelten Münzen in Waffen-Upgrades, neue Waffen, mehr Leben, Türme oder andere Verbesserungen. Die Schwierigkeit steigt langsam – neue Gegnertypen schalten sich alle paar Wellen frei, sodass der Einstieg leicht bleibt, das späte Spiel aber fordernd wird.</p><p><br></p><p>Mit dem Link unten geht es zu Spiel</p>",
         "link": "https://ninoborer.ch/assets/Happy_Birthday_Papi_Browser.html"
+      },
+      {
+        "title": "",
+        "html": "<p><br></p>",
+        "link": ""
       }
     ]
   }
